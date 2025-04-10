@@ -1,0 +1,59 @@
+/* Set body background and center everything */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* full screen height */
+    font-family: Arial, sans-serif;
+  }
+  
+  .counter-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Common button style */
+  button {
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Specific button colors */
+  button:nth-child(1) {
+    background-color: green;
+  }
+  button:nth-child(2) {
+    background-color: red;
+  }
+  button:nth-child(3) {
+    background-color: #555; /* neutral gray */
+  }
+  
+  /* Optional: Add hover effect */
+  button:hover {
+    opacity: 0.9;
+  }
+  .counter-container h2 {
+    color: black; 
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
