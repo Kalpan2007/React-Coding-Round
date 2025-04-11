@@ -1,0 +1,56 @@
+.timer-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: #f1f5f9;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #1e293b;
+  }
+  
+  .time {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 25px;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .start-btn {
+    background-color: #22c55e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .start-btn:hover {
+    background-color: #16a34a;
+  }
+  
+  .stop-btn {
+    background-color: #ef4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .stop-btn:hover {
+    background-color: #dc2626;
+  }
+  
